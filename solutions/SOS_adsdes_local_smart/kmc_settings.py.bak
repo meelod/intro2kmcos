@@ -7,8 +7,8 @@ def setup_model(model):
        e.g. ::
     model.put([0,0,0,model.lattice.default_a], model.proclist.species_a)
     """
-    for ix in range(model.size[0]):
-        for iy in range(model.size[1]):
+    for ix in xrange(model.size[0]):
+        for iy in xrange(model.size[1]):
             model._put([ix,iy,0,model.lattice.default_sc], model.proclist.sub)
             model._put([ix,iy,1,model.lattice.default_sc], model.proclist.pt)
     model._adjust_database()

@@ -10,7 +10,7 @@ def setup_model(model):
     """
     x, y = model.size
 
-    for i in range(y):
+    for i in xrange(y):
         model._put([x-1, i, 0, 1], model.proclist.drain)
         model._put([0, i, 0, 1], model.proclist.source)
     model._adjust_database()
