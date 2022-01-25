@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from kmos.run import KMC_Model
+from kmcos.run import KMC_Model
 import pylab
 import numpy as np
 import random
-from ase.all import view
+from ase.gui.view import View
 
 #load model
 model = KMC_Model(print_rates=False, banner=False)

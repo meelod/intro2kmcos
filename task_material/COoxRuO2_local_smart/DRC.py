@@ -98,8 +98,8 @@ delta_TOF = tof_fin - tof_ini
 delta_k = k_fin - k_ini
 DRC = (k_ini / tof_ini) * (delta_TOF / delta_k)
 
-print(('delta: ',delta))
-print(('sample_steps: ',sample_steps))
-print(('DRC: ',DRC))
+print('delta: ',delta)
+print('sample_steps: ',sample_steps)
+print('DRC: ',DRC)
 
 

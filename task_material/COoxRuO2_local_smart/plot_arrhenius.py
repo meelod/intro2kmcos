@@ -1,6 +1,6 @@
 """
 Generate and Arrhenius plot
-using kmos
+using kmcos
 
 Juan M. Lorenzi
 TU Munich
@@ -9,13 +9,13 @@ June 2016
 import math
 
 from kmcos.run import KMC_Model
-model = KMC_Model(banner = False)
+model = KMC_Model(banner = False) #need xml file
 
 model.parameters.p_COgas = 2.e-1
 model.parameters.p_O2gas = 1.e-1
 
 nrel = 1e7; nsample = 1e7  # numerical parameters
-Ts = list(range(450,650,20))     # 20 values between 450 and 650 K
+Ts = range(450,650,20)     # 20 values between 450 and 650 K
 TOFs = []                  # empty list for output
 # Loop over the temperature
 for T in Ts:
