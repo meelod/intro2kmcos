@@ -1,4 +1,4 @@
-from kmos.run import KMC_Model
+from kmcos.run import KMC_Model
 import random
 
 Ts = [350, 450]

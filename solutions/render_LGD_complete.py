@@ -1,7 +1,7 @@
 """
 Simple lattice gas particle diffusion model
 """
-from kmos.types import *
+from kmcos.types import *
 
 pt = Project()
 # Meta information

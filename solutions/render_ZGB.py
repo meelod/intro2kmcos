@@ -6,8 +6,8 @@ TU Munich
 June 2016
 """
 
-# First kmos.types
-from kmos.types import *
+# First kmcos.types
+from kmcos.types import *
 
 # Initialize the project
 pt = Project()

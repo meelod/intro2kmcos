@@ -11,7 +11,7 @@ TU Munich
 16.05.2016
 """
 
-from kmos.types import *
+from kmcos.types import *
 import itertools
 
 def main():

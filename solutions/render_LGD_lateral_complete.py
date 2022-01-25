@@ -1,7 +1,7 @@
 from itertools import product
 
-from kmos.cli import main as cli_main
-from kmos.types import Action, Condition, Layer, Project, Site, Species
+from kmcos.cli import main as cli_main
+from kmcos.types import Action, Condition, Layer, Project, Site, Species
 
 
 # Project
